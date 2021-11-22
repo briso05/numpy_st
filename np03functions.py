@@ -76,3 +76,7 @@ ndarray = np.array([[3,4,5,6,7],[1,3,5,7,9],[10,20,30,40,50]])
 print(ndarray)
 print(np.var(ndarray,0))
 print(np.var(ndarray,1))
+
+print(np.std(ndarray,0))
+print(np.std(ndarray,1))
+print(np.std(ndarray))
